@@ -11,6 +11,6 @@ That is, for each subsequent character, the shift will be incremented.
 
 Examples:
 
-`ABC` -> `ACE`
-`000` -> `012` 
-`BCA` -> `BBB`
+- `ABC` -> `ACE`
+- `000` -> `012` 
+- `BCA` -> `BBB`
