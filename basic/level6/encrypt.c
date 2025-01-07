@@ -11,6 +11,7 @@ char *encrypt(char *string) {
     return NULL;
   }
 
+  // encription logic
   for (int i = 0; i < len; i++) {
     encoding[i] = ((int)string[i]) + i;
   }

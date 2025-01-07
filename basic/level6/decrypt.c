@@ -11,8 +11,10 @@ char *decrypt(char *string) {
     return NULL;
   }
 
+  // decryption logic
   for (int i = 0; i < len; i++) {
     decoding[i] = ((int)string[i]) - i;
+
   }
 
   decoding[len] = '\0';
