@@ -1,2 +1,8 @@
+ignore
 *.ignore.*
 *.out
+
+# python
+.venv
+__pycache__
+
